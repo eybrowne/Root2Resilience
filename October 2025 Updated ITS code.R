@@ -1,3 +1,10 @@
+
+#a sequence table with chimeras removed, taxonomy table, OTU table, and metadata sheet is needed for this code
+#This code uses DESeq differential analysis with a heatmap and complex upset plot output. 
+
+
+
+
 # Clean-up the memory and start a new session
 #############################################################
 rm(list=ls())
@@ -1311,4 +1318,5 @@ pheatmap::pheatmap(
 )
 
 #####End
+
 
